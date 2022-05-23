@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+p{
+    text-align: justify;
+    font-family: Arial;
+    color: white;
+    text-indent: 50px;
+    margin-right: 250px;
+}
+h1{
+    color: lightslategray;
+    font-family: Arial;
+}
+h2{
+    color: white;
+    font-family: Arial;
+}
+h3{
+    color: white;
+    font-family: Arial;
+}
+#linha-menu{
+    margin-top: 5px;
+}
+
+#capa-jogos {
+    float: right;
+    width: 150px;
+    height: 200px;
+    margin-right: 45px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px black;
+}
+#review{
+    margin-bottom: 46px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+/* formatação do menu */
+nav#menu {
+    color: white;
+    display: block;
+}
+nav#menu ul {
+    text-transform: uppercase;
+    list-style: none; /*tira as marcações de menu (bolinhas etc)*/
+    position: relative;
+    top: -20px;
+    margin: 1px;
+    left: 0px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: lightslategray;
+    padding: 8px;
+    padding-right: 44px;
+    padding-left: 44px;
+    border-radius:10px;
+    margin: 1px;
+    margin-top: 5px;
+}
+nav#menu h1 {
+    display: none;
+}
+
+p#creditos{
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 100%;
+    padding: 10px;
+    margin-top: -10px;
+}
+  .titulo{
+      font-family: 'IM Fell French Canon SC', serif;
+      font-size: 50px;
+}
+a {
+    color: white;
+  }
+  .botao-review {
+	background-color:lightslategray;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:5px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.botao-review:hover {
+    background-color: white;
+    color: rgb(36, 36, 36);
+    text-shadow: none;
+}
+.botao-review:active {
+	position:relative;
+	top:1px;
+}
